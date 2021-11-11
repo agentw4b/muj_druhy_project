@@ -1,5 +1,5 @@
 playing_stones: list = ["X", "O"]
-initial_char = ' '
+initial_char = '_'
 
 
 def create_array(width:int, height:int):
@@ -17,3 +17,4 @@ def print_array(array:list):
 array1 =[]
 array1 = create_array (3,3)
 print_array(array1)
+
