@@ -1,9 +1,11 @@
 
-array2 = []
+
 def create_array (width:int, height:int):
+    array = []
     for _  in range (height):
-        array2.append(list(' ' * width))
+        array.append(list(' ' * width))
+    return array
 
-
-create_array (3,3)
-print (array2)
+array1 =[]
+array1 = create_array (3,3)
+print (array1)
