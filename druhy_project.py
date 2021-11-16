@@ -16,5 +16,5 @@ def print_array(array:list):
 #main program
 array1 =[]
 array1 = create_array (3,3)
-print_array(array
+print_array(array1)
 
